@@ -14,7 +14,10 @@
     "url": "git+https://github.com/weTobias/swq_exercise_1.git"
   },
   "keywords": [],
-  "contributors": ["Tobias Weigl", "Sebastian Toporsch"],
+  "contributors": [
+    "Tobias Weigl",
+    "Sebastian Toporsch"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weTobias/swq_exercise_1/issues"
@@ -22,6 +25,7 @@
   "homepage": "https://github.com/weTobias/swq_exercise_1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jasmine": "^3.10.0"
+    "jasmine": "^3.10.0",
+    "supertest": "^6.1.6"
   }
 }
