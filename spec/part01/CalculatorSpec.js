@@ -1,5 +1,11 @@
+/*
+Errors occur when switching to calculator2.
+You can fix the negative outcomes of the tests using by changing the return values of the methods.
+Therfore the outcome is dependent on the input and is not using the same value for all tests.
+*/
+
+require("../../app/hello_world")
 var calculator = require("../../lib/calculator")
-var hello_world = require("../../app/hello_world")
 
 describe('Test caculator add, subtract and multiply', () => {
     it('add should be 30 ', () => {
